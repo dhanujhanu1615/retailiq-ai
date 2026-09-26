@@ -1,1 +1,26 @@
+# Virtual environment
 .venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Testing
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated model files
+*.joblib
+*.pkl
+
+# Generated processed data
+data/processed/*.csv
+
+# Raw dataset
+data/raw/sales_data.csv
